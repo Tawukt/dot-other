@@ -1,0 +1,123 @@
+[global]
+    monitor = 1
+    follow = none #none, mouse, keyboard 
+    width = (250, 500)
+    height = (0, 750)
+    origin = top-right
+    offset = (10, 30)
+    notification_limit = 20
+
+	progress_bar = true
+    progress_bar_height = 10
+    progress_bar_frame_width = 1
+    progress_bar_min_width = 150
+    progress_bar_max_width = 300
+    progress_bar_corner_radius = 0
+	progress_bar_corners = all
+
+	icon_corner_radius = 0
+    icon_corners = all
+    indicate_hidden = yes
+    padding = 8
+    horizontal_padding = 8
+    text_icon_padding = 0
+    frame_width = 3  #border size
+    frame_color = "{color1}"
+    gap_size = 3
+    sort = yes
+    font = JetBrainsMono Nerd Font Mono 11 
+
+    markup = full
+    format = "<b>%s</b>\n%b"
+    show_age_threshold = 60
+
+    icon_position = left
+    min_icon_size = 32
+    max_icon_size = 32
+
+    # dmenu path.
+    dmenu = /usr/bin/rofi -dmenu -p dunst:
+    corner_radius = 9
+
+    ### Wayland ###
+    # Set this to true to use X11 output on Wayland.
+    force_xwayland = false
+
+    ### mouse
+    mouse_left_click = close_current
+    mouse_middle_click = do_action, close_current
+    mouse_right_click = close_all
+
+
+[urgency_low]
+    background = "{background}"
+    foreground = "{foreground}"
+    timeout = 4
+
+[urgency_normal]
+    background = "{background}"
+    foreground = "{foreground}"
+    timeout = 6
+
+[urgency_critical]
+    background = "{foreground}"
+    foreground = "{background}"
+    frame_color = "{color2}"
+    timeout = 0 
+    default_icon = $HOME/Pictures/icon/error-warning-line.svg 
+
+
+#[fullscreen_delay_everything]
+#    fullscreen = delay
+#[fullscreen_show_critical]
+#    msg_urgency = critical
+#    fullscreen = show
+
+#[espeak]
+#    summary = "*"
+#    script = dunst_espeak.sh
+
+#[script-test]
+#    summary = "*script*"
+#    script = dunst_test.sh
+
+#[ignore]
+#    # This notification will not be displayed
+#    summary = "foobar"
+#    skip_display = true
+
+#[history-ignore]
+#    # This notification will not be saved in history
+#    summary = "foobar"
+#    history_ignore = yes
+
+#[skip-display]
+#    # This notification will not be displayed, but will be included in the history
+#    summary = "foobar"
+#    skip_display = yes
+
+#[signed_on]
+#    appname = Pidgin
+#    summary = "*signed on*"
+#    urgency = low
+#
+#[signed_off]
+#    appname = Pidgin
+#    summary = *signed off*
+#    urgency = low
+#
+#[says]
+#    appname = Pidgin
+#    summary = *says*
+#    urgency = critical
+#
+#[twitter]
+#    appname = Pidgin
+#    summary = *twitter.com*
+#    urgency = normal
+#
+#[stack-volumes]
+#    appname = "some_volume_notifiers"
+#    set_stack_tag = "volume"
+#
+# vim: ft=cfg
