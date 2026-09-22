@@ -5,7 +5,7 @@ This repo contain all little dotfile where it is not logic to create one repo fo
 >[!Important]
 >Put this repo in `$HOME/.conf/`.
 
-- `dunstrc`
+## `dunstrc`
 
 This is a template for `pywal16` we need to symlink it to `$HOME/.conf/wal/templates/dunstrc`:
 ```sh
@@ -17,9 +17,9 @@ Then we need to symlink the output of `pywal16` into `$HOME/.conf/dunst/dunstrc`
 ln -s $HOME/.cache/wal/dunstrc $HOME/.conf/dunst/dunstrc
 ```
 
-- `chromium.json`
+## `chromium.json`
 
->[!ATTENTION]
+>[!Warning]
 >The chromium browser don't set automaticly the theme on each generation.
 >So we need to remove `'Cached Theme.pak'`(inside the theme folder) and relaunch the browser.
 
