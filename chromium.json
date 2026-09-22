@@ -4,19 +4,19 @@
    "name": "Pywal Theme",
    "theme": {
       "colors": {
-         "button_background": [ {foreground.rgb} ],
+         "button_background": [ {background.rgb} ],
 
-         "frame": [ {background.rgb} ],
-         "frame_inactive": [ {background.rgb} ],
+         "frame": [ {foreground.rgb} ],
+         "frame_inactive": [ {foreground.rgb} ],
 
-         "ntp_section": [ {color8.rgb} ],
-         "ntp_link": [ {color11.rgb} ],
-         "ntp_text": [ {foreground.rgb} ],
+         "ntp_section": [ {color11.rgb} ],
+         "ntp_link": [ {color8.rgb} ],
+         "ntp_text": [ {background.rgb} ],
 
-         "omnibox_background": [ {background.rgb} ],
-         "omnibox_text": [ {foreground.rgb} ],
+         "omnibox_background": [ {foreground.rgb} ],
+         "omnibox_text": [ {background.rgb} ],
 
-         "toolbar": [ {color11.rgb} ],
+         "toolbar": [ {background.rgb} ],
          "toolbar_button_icon": [ {foreground.rgb} ]
       }
    }
