@@ -41,3 +41,14 @@ Then we need to symlink the output of `pywal16` into `$HOME/.cache/chromium-pywa
 ```sh
 ln -s $HOME/.config/wal/templates/manifest.json $HOME/.cache/chromium-pywal/manifest.json
 ```
+## app folder
+
+This forlder contain `.desktop` app.
+
+I created script `app/update.sh` to create symlink into `~/.local/share/application`.
+
+You can change the variable `app_folder` to one of those:
+- `~/.local/share/applications/`
+- `/usr/local/share/applications/`
+- `/usr/share/applications/`
+- `$XDG_DATA_DIRS/applications/`

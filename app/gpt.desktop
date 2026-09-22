@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=ChatGPT
+Exec=sh -c "$HOME/bin/app.sh gpt"
+Terminal=false
+Icon=ia
+Type=Application
+Categories=Tools;

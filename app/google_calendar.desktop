@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=Google Calendar
+Exec=sh -c "$HOME/bin/app.sh calendar"
+Terminal=false
+Icon=office-calendar
+Type=Application
+Categories=Time;

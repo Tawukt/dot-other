@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=Perplexity
+Exec=sh -c "$HOME/bin/app.sh perplexity"
+Terminal=false
+Icon=perplexity-color
+Type=Application
+Categories=Tools;

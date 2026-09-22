@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=WhatsApp
+Exec=sh -c "$HOME/bin/app.sh whatsapp"
+Terminal=false
+Icon=whatsapp
+Type=Application
+Categories=Social;

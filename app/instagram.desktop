@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=Instagram
+Exec=sh -c "$HOME/bin/app.sh instagram"
+Terminal=false
+Icon=instagram
+Type=Application
+Categories=Social;

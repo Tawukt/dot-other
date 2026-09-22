@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=Discord
+Exec=sh -c "$HOME/bin/app.sh discord"
+Terminal=false
+Icon=discord
+Type=Application
+Categories=Social;
