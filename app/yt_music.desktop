@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=Youtube Music
+Exec=sh -c "$HOME/bin/app.sh yt_music"
+Terminal=false
+Icon=youtube-music
+Type=Application
+Categories=Media;
